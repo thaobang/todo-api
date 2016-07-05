@@ -14,7 +14,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/todos', function (req, res) {
-	res.json(todos);
+	res.json(todos); 
 });
 
 app.get('/todos/:id', function (req, res) {
